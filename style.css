@@ -7,7 +7,7 @@ body {
     line-height: 1.6;
     display: flex;
     justify-content: center;
-    padding: 60px 20px;
+    padding: 60px 20px 80px;
 }
 
 main { max-width: 640px; width: 100%; }
@@ -92,6 +92,19 @@ ul li {
     text-decoration: underline;
 }
 
+
+/* Footer */
+footer {
+    background: #edeef2;
+    color: #555;
+    text-align: center;
+    padding: 24px 20px;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 
 @media (max-width: 600px) {
     .project-grid {
