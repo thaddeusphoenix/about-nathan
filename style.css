@@ -56,7 +56,7 @@ ul li {
 /* Project Gallery */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
 
@@ -68,6 +68,27 @@ ul li {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.project-status {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.status-active {
+    background: #e6f4ea;
+    color: #2d7a3a;
+}
+
+.status-shipped {
+    background: #e8eaf6;
+    color: #3949ab;
 }
 
 .project-card h3 {
